@@ -1,0 +1,6 @@
+@PruebaTecnica_ArielFlores_HostAddress = http://localhost:5254
+
+GET {{PruebaTecnica_ArielFlores_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

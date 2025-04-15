@@ -1,0 +1,160 @@
+[
+  {
+    "ContainingType": "PruebaTecnica_ArielFlores.Controllers.HomeController",
+    "Method": "CreateCliente",
+    "RelativePath": "api/prueba/clientes/createCliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "PruebaTecnica_ArielFlores.Models.DTO.ClientesCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica_ArielFlores.Controllers.ServiciosAdicionalesController",
+    "Method": "GetClienteById",
+    "RelativePath": "api/prueba/clientes/getClienteById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "PruebaTecnica_ArielFlores.Models.DTO.ClientesUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica_ArielFlores.Controllers.HomeController",
+    "Method": "GetClientes",
+    "RelativePath": "api/prueba/clientes/getClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica_ArielFlores.Controllers.ServiciosAdicionalesController",
+    "Method": "GetCuentasCliente",
+    "RelativePath": "api/prueba/clientes/getCuentasCliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "PruebaTecnica_ArielFlores.Models.DTO.ClienteByIdDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica_ArielFlores.Controllers.ServiciosAdicionalesController",
+    "Method": "UpdateCliente",
+    "RelativePath": "api/prueba/clientes/updateCliente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "PruebaTecnica_ArielFlores.Models.DTO.ClientesUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica_ArielFlores.Controllers.HomeController",
+    "Method": "CreateCuenta",
+    "RelativePath": "api/prueba/cuentas/createCuenta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "PruebaTecnica_ArielFlores.Models.DTO.CuentasCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica_ArielFlores.Controllers.HomeController",
+    "Method": "GetCuentas",
+    "RelativePath": "api/prueba/cuentas/getCuentas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica_ArielFlores.Controllers.HomeController",
+    "Method": "GetSaldoByCuenta",
+    "RelativePath": "api/prueba/cuentas/getSaldoByCuenta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "PruebaTecnica_ArielFlores.Models.DTO.SaldoByCuentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica_ArielFlores.Controllers.ServiciosAdicionalesController",
+    "Method": "GetTransacciones",
+    "RelativePath": "api/prueba/cuentas/getTransacciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica_ArielFlores.Controllers.HomeController",
+    "Method": "CreateTransaccion",
+    "RelativePath": "api/prueba/transacciones/createTransaccion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "PruebaTecnica_ArielFlores.Models.DTO.TransaccionesCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnica_ArielFlores.Controllers.HomeController",
+    "Method": "GetResumenTransaccionesByCuenta",
+    "RelativePath": "api/prueba/transacciones/getResumenTransaccionesByCuenta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "PruebaTecnica_ArielFlores.Models.DTO.SaldoByCuentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
