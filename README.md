@@ -1,4 +1,3 @@
-# pruebaTecnica
 Prueba Técnica Dev Sr. - Ariel Flores
 
 ******************************
