@@ -6,7 +6,7 @@ Prueba Técnica Dev Sr. - Ariel Flores
 CLIENTE 1
 Id Cliente: 1
 Id Cuenta: 1
-# Cuenta: 3039905461606924
+Núm. Cuenta: 3039905461606924
 
 --------------------------------------------------------------------
 
@@ -32,6 +32,4 @@ http://104.237.6.49:3010/swagger/index.html
 CLIENTE 1
 Id Cliente: 1
 Id Cuenta: 1
-# Cuenta: 8087365210377875
-
-
+Núm. Cuenta: 8087365210377875
